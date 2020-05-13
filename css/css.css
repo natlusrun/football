@@ -39,7 +39,7 @@ header {
 }
 
 .header h1 {
-    font-size: 60px;
+    font-size: calc(60px + 16 * ((100vw - 320px) / (1280 - 320)));
     color: #fff;
     text-align: center;
     text-shadow: 3px 5px 3px black;
@@ -74,7 +74,7 @@ header {
 
 
 .dis {
-    font-size: 30px;
+    font-size: calc(30px + 16 * ((100vw - 320px) / (1280 - 320)));
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px black;
