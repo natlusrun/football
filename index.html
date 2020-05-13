@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Football Goal - Футбольная Компания </title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/16/000000/football-ball.png" type="png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+
+<body class="container">
+    <header class="element element-1">
+        <div class="header" data-aos="fade-in">
+            <figure>
+                <img src="assets/icon.png" alt="icon" style="width: 100px" data-aos="fade-right">
+            </figure>
+            <h1 data-aos="fade-down"> Football Goal</h1>
+            <h2 class="dis" data-aos="fade-down"> Футбольная компания </h2>
+        </div>
+    </header>
+    <nav class="element element-2">
+        <ul class="nav">
+            <li><a href="#" title="Меню нашего сайта" onclick="openNav()"> Меню </a> </li>
+            <li><a href=" #nowhere" title="Наши Услуги"> Услуги </a></li>
+            <li><a href="#nowhere" title="Наши партнеры">Наши Партнеры</a></li>
+            <li><a href="assets/store.html" title="Список товаров" target="_blank"> Магазин </a></li>
+            <li><a href="#nowhere" title="Наши контакты">Контакты</a></li>
+        </ul>
+        <!-- The overlay -->
+    </nav>
+    <section class="element element-7">
+    </section>
+    <aside class="element element-3">
+        Aside
+    </aside>
+    <main class="content" data-aos="fade-up">
+        <div class="element element-4">
+            <h1> Мы экипируем лучших! </h1>
+            <p> footballgoal.kz - Официальный партнер ФК "Global Elite" </p>
+            <figure>
+                <img src="assets/team.jpg" alt="team" style="width: 80%">
+                <figcaption> FC Global Elite </figcaption>
+            </figure>
+        </div>
+        <div class="element element-5">
+            <div class="line" data-aos="fade-zoom-in">
+                <img src="assets/icon.png" alt="football" class="linePng">
+                <h2 class="lineHead"> Покупки на Football Company </h2>
+                <p class="lineText"> <b> 87% людей, которые купили товары</b> для футбола, <b> сообщают о таких преимуществах,</b> как повышение своего таланта, рост игрового опыта или получение новой должности </p>
+                <p class="lineLittle"> - Опрос по результатам отзывов Football Company (2020) </p>
+                <a href=""><button class="lineBtn"> Посмотреть католог </button></a>
+            </div>
+            <figure>
+                <div class="anim" data-aos="fade-right">
+                    <div class="form">
+                        <img src="assets/form.jpg" alt="form" style="width: 350px; height: 250px;">
+                        <h2> Форма для футбола </h2>
+                    </div>
+                    <div class="shoes">
+                        <img src="assets/shoes.jpg" alt="shoes" style="width: 350px; height: 250px;">
+                        <h2> Обувь для футбола </h2>
+                    </div>
+                    <div class="training">
+                        <img src="assets/training.jpg" alt="train" style="width: 350px; height: 250px;">
+                        <h2> Трейнинг </h2>
+                    </div>
+                </div>
+            </figure>
+            <div class="ball_" data-aos="fade-in">
+                <figure>
+                    <img src="assets/ball_.jpg" alt="ball" style="width: 100%">
+                </figure>
+            </div>
+            <div class="partners" data-aos="fade-in">
+                <figure>
+                    <img src="assets/partners.png" alt="placeholder+image" style="width: 100%"></figure>
+            </div>
+        </div>
+    </main>
+    <footer class="element element-6">
+        <div class="left">
+            <h3> Footballgoal.kz </h3>
+            <p> Наша компания основано в 1997 году, и мы до сих пор делаем качественный бренд.
+                Наши услуги также доступен для каждого клиента. Мы работаем не на деньги, а на качество! - <b> <i> Нурдаулет Нурсултан</i></b>
+            </p>
+        </div>
+        <div class="center">
+            <h3> Наши контакты </h3>
+            <p> Insta: footballgoal <br />
+                VK: footballgoal <br />
+                tel: +7 (707) 484 1958 <br />
+                nt.raid03@gmail.com <br />
+                info.footballgoal.kz </p>
+        </div>
+        <div class="right">
+            <h3> Ссылки </h3>
+            <p> <a href="#"> Магазин </a></br>
+                <a href="#"> Контакты </a> </br>
+                <a href="#"> Наши партнеры </a><br />
+                <a href="#"> Услуги </a><br />
+                <a href="#"> Наша команда</a></p>
+        </div>
+    </footer>
+    <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="assets/info.html"> Магазин </a>
+            <a href="assets/html.html"> Услуги </a>
+            <a href="assets/helpful.html"> Полезное </a>
+            <a href="assets/contact.html"> Контакты </a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/js.js"></script>
+    </script>
+</body>
+
+</html>
