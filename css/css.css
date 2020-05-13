@@ -6,6 +6,8 @@
 
 }
 
+
+
 body {
     display: grid;
     width: 100%;
@@ -28,42 +30,38 @@ header {
 
 .header {
 
-    background: url(ball.jpg) no-repeat 90% 30%;
+    background: url(ball.jpg) no-repeat;
 
-    -webkit-background-size: auto;
-    -o-background-size: auto;
-    background-size: cover;
-    ;
+
+    background-position: center;
+    background-size: 100% 100%;
     height: 100%;
-    width: 100%;
-    margin-top: -10px;
-    -webkit-justify-content: center;
-    justify-content: center;
+    background-repeat: no-repeat;
+    position: relative;
 
 }
 
 .header h1 {
-    font-size: calc(60px + 16 * ((100vw - 320px) / (1280 - 320)));
+    font-size: calc(55px + 16 * ((100vw - 320px) / (1280 - 320)));
     color: #fff;
     text-align: center;
-    text-shadow: 3px 5px 3px black;
+    margin: auto;
+    text-shadow: 5px 4px 2px black;
     letter-spacing: 6px;
     text-transform: clip;
-    position: absolute;
+    position: relative;
+    top: 210px;
 
 
 }
 
 .header h2 {
     position: relative;
+    font-size: calc(15px + 16 * ((100vw - 320px) / (1280 - 320)));
+    margin: auto;
+    top: 200px;
 }
 
-.header img {
-    margin-top: 250px;
-    position: relative;
-    margin-left: 450px;
-    overflow: auto;
-}
 
 
 
