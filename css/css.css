@@ -57,7 +57,7 @@ header {
 
 .header h2 {
     position: relative;
-    font-size: calc(15px + 16 * ((100vw - 320px) / (1280 - 320)));
+    font-size: calc(10px + 16 * ((100vw - 320px) / (1280 - 320)));
     margin: auto;
     top: 200px;
 }
@@ -95,7 +95,7 @@ nav {
     margin: 0;
     list-style-type: none;
     overflow: fixed;
-    margin-top: -15px;
+    margin-top: -5px;
 
 }
 
@@ -170,9 +170,17 @@ nav {
     text-decoration: overline;
 }
 
+.form img:hover {
+    border: 5px solid #99b83c;
+}
+
 .shoes {
     margin-top: -285px;
     cursor: pointer;
+}
+
+.shoes img:hover {
+    border: 5px solid #99b83c;
 }
 
 .shoes h2:hover {
@@ -191,6 +199,10 @@ nav {
 
 .training h2:hover {
     text-decoration: overline;
+}
+
+.training img:hover {
+    border: 5px solid #99b83c;
 }
 
 .element-4 figure {

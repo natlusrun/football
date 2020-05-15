@@ -22,10 +22,10 @@
     <nav class="element element-2">
         <ul class="nav">
             <li><a href="#" title="Меню нашего сайта" onclick="openNav()"> Меню </a> </li>
-            <li><a href=" #nowhere" title="Наши Услуги"> Услуги </a></li>
-            <li><a href="#nowhere" title="Наши партнеры">Наши Партнеры</a></li>
+            <li><a href="assets/work.html" title="Наши Услуги" target="_blank"> Услуги </a></li>
+            <li><a href="#part" title="Наши партнеры">Наши Партнеры</a></li>
             <li><a href="assets/store.html" title="Список товаров" target="_blank"> Магазин </a></li>
-            <li><a href="#nowhere" title="Наши контакты">Контакты</a></li>
+            <li><a href="#con" title="Наши контакты">Контакты</a></li>
         </ul>
         <!-- The overlay -->
     </nav>
@@ -37,7 +37,7 @@
     <main class="content" data-aos="fade-up">
         <div class="element element-4">
             <h1> Мы экипируем лучших! </h1>
-            <p> footballgoal.kz - Официальный партнер ФК "Global Elite" </p>
+            <p id="team"> footballgoal.kz - Официальный партнер ФК "Global Elite" </p>
             <figure>
                 <img src="assets/team.jpg" alt="team" style="width: 80%">
                 <figcaption> FC Global Elite </figcaption>
@@ -72,14 +72,16 @@
                     <img src="assets/ball_.jpg" alt="ball" style="width: 100%">
                 </figure>
             </div>
-            <div class="partners" data-aos="fade-in">
+            <div class="partners" data-aos="fade-in" id="part">
                 <figure>
-                    <img src="assets/partners.png" alt="placeholder+image" style="width: 100%"></figure>
+                    <img src="assets/partners.png" alt="placeholder+image" style="width: 100%">
+                </figure>
             </div>
+        </div>
         </div>
     </main>
     <footer class="element element-6">
-        <div class="left">
+        <div class="left" id="con">
             <h3> Footballgoal.kz </h3>
             <p> Наша компания основано в 1997 году, и мы до сих пор делаем качественный бренд.
                 Наши услуги также доступен для каждого клиента. Мы работаем не на деньги, а на качество! - <b> <i> Нурдаулет Нурсултан</i></b>
@@ -95,11 +97,11 @@
         </div>
         <div class="right">
             <h3> Ссылки </h3>
-            <p> <a href="#"> Магазин </a></br>
-                <a href="#"> Контакты </a> </br>
-                <a href="#"> Наши партнеры </a><br />
-                <a href="#"> Услуги </a><br />
-                <a href="#"> Наша команда</a></p>
+            <p> <a href="assets/store.html"> Магазин </a></br>
+                <a href="#con"> Контакты </a> </br>
+                <a href="#part"> Наши партнеры </a><br />
+                <a href="assets/work.html"> Услуги </a><br />
+                <a href="#team"> Наша команда</a></p>
         </div>
     </footer>
     <div id="myNav" class="overlay">
@@ -108,9 +110,8 @@
         <!-- Overlay content -->
         <div class="overlay-content">
             <a href="assets/info.html"> Магазин </a>
-            <a href="assets/html.html"> Услуги </a>
-            <a href="assets/helpful.html"> Полезное </a>
-            <a href="assets/contact.html"> Контакты </a>
+            <a href="assets/work.html"> Услуги </a>
+            <a href="#con" target="_blank"> Контакты </a>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
