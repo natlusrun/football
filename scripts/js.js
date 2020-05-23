@@ -5,7 +5,31 @@ AOS.init({
 
 /* Open when someone clicks on the span element */
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    document.getElementById("myNav")
+
+
+
+        .style.width = "100%";
 }
 
 
